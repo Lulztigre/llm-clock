@@ -8,7 +8,7 @@ Features:
   - Mature analog face: graduated bezel, cardinal numerals, smooth-sweep second hand
   - Broad hour hand, slim minute hand and counterweighted second needle with center hub
   - Peak surge window arc markers on the bezel and 24-hour timeline horizon bar
-  - Multi-Provider Matrix: GLM-5.3, DeepSeek-V4 (Pro & Flash), MiniMax, Moonshot/Kimi, Qwen
+  - Multi-Provider Matrix: GLM-5.3, DeepSeek V4.1-Flash & V4-Pro-0813, MiniMax, Moonshot/Kimi, Qwen
   - Interactive TUI: HOLD mode (SPACE) with fine ±1s/±1m scrubbing, coarse time travel (←/→ ↑/↓),
     In-TUI Calculator (k), Dial Modes (m), Themes (t)
   - Workload Gatekeeper (`--wait-offpeak`): Blocks until discount window opens for automated scripts
@@ -65,7 +65,7 @@ PROVIDERS = {
     },
     "deepseek": {
         "id": "deepseek",
-        "name": "DeepSeek-V4 (4-Pro & 4-Flash)",
+        "name": "DeepSeek V4.1-Flash & V4-Pro-0813",
         "short_name": "DeepSeek",
         "vendor": "DeepSeek AI",
         "peak_multiplier": 2.0,

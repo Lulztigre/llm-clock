@@ -1,7 +1,7 @@
 # ⚡ LLM Radar Clock CLI & Terminal Plugin v2.5
 
 > **Live Peak Hours Surge Tracker, Vector Radar Reticle & Off-Peak Discount Telemetry**  
-> Pure Python 3.9+ zero-dependency vector radar clock, Tmux plugin, Starship module, and workload gatekeeper for **Z.ai GLM-5.3**, **DeepSeek-V4**, **Qwen / Qoder**, **MiniMax**, and **Moonshot / Kimi** APIs.
+> Pure Python 3.9+ zero-dependency vector radar clock, Tmux plugin, Starship module, and workload gatekeeper for **Z.ai GLM-5.3**, **DeepSeek V4.1-Flash & V4-Pro-0813**, **Qwen / Qoder**, **MiniMax**, and **Moonshot / Kimi** APIs.
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20|%20macOS%20|%20Windows-brightgreen?style=flat)]()
@@ -20,7 +20,7 @@ The **LLM Radar Clock** tracks real-time peak surge vs. off-peak discount window
 | AI Model / Provider | Peak Surge Window (Mon-Fri) | Peak Rate | Off-Peak Rate | Weekend Policy |
 | :--- | :--- | :--- | :--- | :--- |
 | **GLM-5.3 / GLM-5-Turbo** | `14:00 - 18:00 UTC+8` | **3.0× Quota Surge** | **1.0× Standard** | 100% Off-Peak All Day |
-| **DeepSeek-V4 (Pro & Flash)** | `09:00 - 12:00` & `14:00 - 18:00 UTC+8` | **2.0× Surge** | **1.0× (50% Discount)** | 100% Off-Peak All Day |
+| **DeepSeek V4.1-Flash & V4-Pro-0813** | `09:00 - 12:00` & `14:00 - 18:00 UTC+8` | **2.0× Surge** | **1.0× (50% Discount)** | 100% Off-Peak All Day |
 | **Qwen / Qoder (Qwen-Coder & Max)** | `08:00 - 22:00 UTC+8` *(14:00-00:00 UTC Off-Peak)* | **2.0× Standard** | **1.0× (50-80% Disc.)** | 100% Off-Peak All Day |
 | **MiniMax-01 / Babble-Pro** | `10:00 - 12:00` & `15:00 - 18:00 UTC+8` | **1.5× Surge** | **1.0× Standard** | 100% Off-Peak All Day |
 | **Moonshot / Kimi K1.5 & K2** | `09:30 - 11:30` & `14:30 - 17:30 UTC+8` | **2.0× Surge** | **1.0× Standard** | 100% Off-Peak All Day |
